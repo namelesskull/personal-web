@@ -17,8 +17,11 @@ const Contact = () => {
           {'Feel free to contact me to discuss and explore your amazing ideas.'}
         </h1>
         <Button
+          as={'a'}
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://wa.me/62895621576020'
           className='bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105'
-          onClick={() => console.log('Contact button clicked')}
         >
           Contact Me
         </Button>

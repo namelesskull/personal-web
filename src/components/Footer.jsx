@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import logo from '../assets/logo-extend.png';
 
 const Footer = () => {
@@ -36,23 +36,22 @@ const Footer = () => {
           </div>
           <div className='flex space-x-4'>
             <a
-              href='#'
+              href='https://github.com/namelesskull/'
+              target='_blank'
+              rel='noopener noreferrer'
               className='text-white hover:text-blue-400 transition-colors duration-300'
             >
               <Github size={24} />
             </a>
             <a
-              href='#'
+              href='https://www.linkedin.com/in/khaqul-huda/'
+              target='_blank'
+              rel='noopener noreferrer'
               className='text-white hover:text-blue-400 transition-colors duration-300'
             >
               <Linkedin size={24} />
             </a>
-            <a
-              href='#'
-              className='text-white hover:text-blue-400 transition-colors duration-300'
-            >
-              <Twitter size={24} />
-            </a>
+
             <a href='/'>
               <img src={logo} alt='logo' className='h-6' />
             </a>
